@@ -62,5 +62,5 @@ fullDayButton.addEventListener('click', () => {
 
 function calculateTotalCost() {
     const totalCost = dailyRate * selectedDays.length; 
-    costDisplay.innerHTML = `$${totalCost}`; 
+    costDisplay.innerHTML = `${totalCost}`; 
 }
